@@ -19,6 +19,7 @@ function App() {
       setCause(registro.cause)
       setSuggestion(registro.suggestion)
       setShowInfo(true)
+      setErrorInput("")
     }
     else{
       alert("Codigo de error no registrado")
