@@ -1,0 +1,869 @@
+[
+    {
+        "code": 1014,
+        "definition": "Altavoz no apagado",
+        "cause": "Altavoz o Conector de altavoz",
+        "suggestion": "Verificar el altavoz o su conector"
+    }
+    ,
+    {
+        "code": 1015,
+        "definition": "Altavoz perdido",
+        "cause": "Conector de altavoz",
+        "suggestion": "Verificar el altavoz o su conector"
+    }
+    ,
+    {
+        "code": 1016,
+        "definition": "Altavoz en cortocircuito",
+        "cause": "Conector de altavoz",
+        "suggestion": "Verificar el altavoz o su conector"
+    }
+    ,
+    {
+        "code": 1017,
+        "definition": "Defecto en la ruta de apagado de KuP",
+        "cause": "(K_SM_CLK)",
+        "suggestion": "Ruta de apagado"
+    }
+    ,
+    {
+        "code": 1018,
+        "definition": "Presión ADC fuera de rango",
+        "cause": "Medición de presión en la cabeza del disco",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1020,
+        "definition": "Error en la Memoria Flash FUP Software",
+        "cause": "Software",
+        "suggestion": "Actualizar software de la unidad"
+    }
+    ,
+    {
+        "code": 1021,
+        "definition": "Versión diferente de FUP a KuP",
+        "cause": "Software",
+        "suggestion": "Actualizar software de la unidad"
+    }
+    ,
+    {
+        "code": 1022,
+        "definition": "Fallo en la prueba de presión FUP cero",
+        "cause": "Medición de presión en la cabeza del disco",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1023,
+        "definition": "Fallo en la prueba de desplazamiento de presión FUP",
+        "cause": "Medición de presión en la cabeza del disco",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1024,
+        "definition": "Tecla EA de FUP cerrada durante demasiado tiempo (20seg)",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 1100,
+        "definition": "Tiempo base demasiado rápido",
+        "cause": "Cuarzo de la PCB del procesador",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1101,
+        "definition": "Tiempo base demasiado lento",
+        "cause": "Cuarzo de la PCB del procesador",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1102,
+        "definition": "Fallo de tiempo base",
+        "cause": "Cuarzo de la PCB del procesador",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1103,
+        "definition": "Teclado Alto",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 1104,
+        "definition": "EA_KEY defectuosa 25seg",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 1105,
+        "definition": "No hay decodificación de teclas",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 1106,
+        "definition": "Fallo en prueba ROM Romtest",
+        "cause": "Software",
+        "suggestion": "Actualizar software de la unidad"
+    }
+    ,
+    {
+        "code": 1107,
+        "definition": "Fallo en programa ROM",
+        "cause": "Software Update",
+        "suggestion": "unit software"
+    }
+    ,
+    {
+        "code": 1108,
+        "definition": "Estado CM sin configuración K_V_KM_ON",
+        "cause": "",
+        "suggestion": ""
+    }
+    ,
+    {
+        "code": 1109,
+        "definition": "Fallo en prueba MPU_Test",
+        "cause": "Software Update",
+        "suggestion": "unit software"
+    }
+    ,
+    {
+        "code": 1110,
+        "definition": "Fallo en prueba RAM_Test",
+        "cause": "Software Update",
+        "suggestion": "unit software"
+    }
+    ,
+    {
+        "code": 1111,
+        "definition": "Reset activo",
+        "cause": "Suministro de voltaje interrumpido durante la operación",
+        "suggestion": ""
+    }
+    ,
+    {
+        "code": 1115,
+        "definition": "Conducción demasiado rápida",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1116,
+        "definition": "Conducción demasiado lenta",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1119,
+        "definition": "Defecto en encendido de retroiluminación de pantalla LCD",
+        "cause": "PCB del procesador dañada",
+        "suggestion": "Verificar PCB del procesador por daños debido a caídas y cambiar si es necesario"
+    }
+    ,
+    {
+        "code": 1120,
+        "definition": "Defecto en apagado de retroiluminación de pantalla LCD",
+        "cause": "Pantalla LC defectuosa",
+        "suggestion": "Cambiar unidad de operación"
+    }
+    ,
+    {
+        "code": 1121,
+        "definition": "Defecto en LED rojo encendido",
+        "cause": "Pantalla LC defectuosa",
+        "suggestion": "Cambiar unidad de operación"
+    }
+    ,
+    {
+        "code": 1122,
+        "definition": "Defecto en LED rojo apagado",
+        "cause": "Pantalla LC defectuosa",
+        "suggestion": "Cambiar unidad de operación"
+    }
+    ,
+    {
+        "code": 1123,
+        "definition": "Tecla presionada demasiado tiempo (sin tecla EA-Key) 60seg",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 1128,
+        "definition": "Movimiento de conducción sin dirección correcta hacia adelante",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1129,
+        "definition": "Movimiento de conducción sin dirección correcta hacia atrás",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1201,
+        "definition": "Versión diferente FuP a KuP de Software",
+        "cause": "software",
+        "suggestion": "Actualizar software de la unidad"
+    }
+    ,
+    {
+        "code": 1202,
+        "definition": "E_ERROR_STEPMOTOR_1 Fase no está bien",
+        "cause": "Motor de conducción, husillo principal",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1203,
+        "definition": "E_ERROR_STEPMOTOR_2 Valor de corriente no es 0x55",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1204,
+        "definition": "E_ERROR_STEPMOTOR_3 Defecto K_SM_CLK",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1205,
+        "definition": "E_ERROR_STEPMOTOR_4 Fase no está bien",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1206,
+        "definition": "E_ERROR_STEPMOTOR_5 Valor de corriente no es 0",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1207,
+        "definition": "E_ERROR_STEPMOTOR_6 Valor de corriente no es 0x55",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1208,
+        "definition": "E_ERROR_STEPMOTOR_7 Valor de corriente no es 0xAA",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1209,
+        "definition": "E_ERROR_STEPMOTOR_8 Fases no son 0",
+        "cause": "Motor de conducción Reconocimiento de dirección de rotación",
+        "suggestion": "Realizar calibración"
+    }
+    ,
+    {
+        "code": 1210,
+        "definition": "E_ERROR_DCMOTOR_1",
+        "cause": "Motor de freno de pistón defectuoso Conducción de garra en la cabeza del disco defectuosa Barrera de luz de freno de pistón defectuosa",
+        "suggestion": ""
+    }
+    ,
+    {
+        "code": 1211,
+        "definition": "E_ERROR_DCMOTOR_2",
+        "cause": "Motor de freno de pistón defectuoso Conducción de garra en la cabeza del disco defectuosa Barrera de luz de freno de pistón defectuosa",
+        "suggestion": ""
+    }
+    ,
+    {
+        "code": 1212,
+        "definition": "E_ERROR_DCMOTOR_3",
+        "cause": "Motor de freno de pistón defectuoso Conducción de garra en la cabeza del disco defectuosa Barrera de luz de freno de pistón defectuosa",
+        "suggestion": ""
+    }
+    ,
+    {
+        "code": 1213,
+        "definition": "E_ERROR_DCMOTOR_4",
+        "cause": "Motor de freno de pistón defectuoso Conducción de garra en la cabeza del disco defectuosa Barrera de luz de freno de pistón defectuosa",
+        "suggestion": ""
+    }
+    ,
+    {
+        "code": 1214,
+        "definition": "E_ERROR_DCMOTOR_5",
+        "cause": "Motor de freno de pistón defectuoso Conducción de garra en la cabeza del disco defectuosa Barrera de luz de freno de pistón defectuosa",
+        "suggestion": ""
+    }
+    ,
+    {
+        "code": 1215,
+        "definition": "Sin V_MOT",
+        "cause": "Transformador de voltaje defectuoso",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1216,
+        "definition": "Fallo en prueba de sobretensión",
+        "cause": "Transformador de voltaje defectuoso",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1217,
+        "definition": "Sin V_MOT",
+        "cause": "Transformador de voltaje defectuoso",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1218,
+        "definition": "Fallo en prueba de subtensión",
+        "cause": "Transformador de voltaje defectuoso",
+        "suggestion": "Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1220,
+        "definition": "Defecto en soporte de jeringa",
+        "cause": "Soporte de jeringa o potenciómetro defectuoso",
+        "suggestion": "Cambiar el soporte de jeringa Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1221,
+        "definition": "Tiempo de cambio de jeringa agotado",
+        "cause": "Soporte de jeringa o potenciómetro defectuoso",
+        "suggestion": "Cambiar el soporte de jeringa Cambiar la PCB del procesador"
+    }
+    ,
+    {
+        "code": 1239,
+        "definition": "Defecto en sensor de plato de émbolo",
+        "cause": "Barrera de luz del sensor de plato de émbolo defectuosa",
+        "suggestion": "Cambiar la cabeza de conducción"
+    }
+    ,
+    {
+        "code": 2014,
+        "definition": "El altavoz no está apagado",
+        "cause": "Altavoz o conector",
+        "suggestion": "Checar el altavoz"
+    }
+    ,
+    {
+        "code": 2015,
+        "definition": "Altavoz perdido",
+        "cause": "Altavoz o conector",
+        "suggestion": "Checar el altavoz"
+    }
+    ,
+    {
+        "code": 2016,
+        "definition": "Altavoz en cortocircuito",
+        "cause": "Altavoz o conector",
+        "suggestion": "Checar el altavoz"
+    }
+    ,
+    {
+        "code": 2017,
+        "definition": "KUP no trabaja",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualice el software, cambie la PCB del procesador ISP si es necesario"
+    }
+    ,
+    {
+        "code": 2018,
+        "definition": "Tiempo de espera de ciclo del OS FUP-KUP",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualice el software, cambie la PCB del procesador ISP si es necesario"
+    }
+    ,
+    {
+        "code": 2019,
+        "definition": " Error de memoria flash FUP",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualice el software, cambie la PCB del procesador ISP si es necesario"
+    }
+    ,
+    {
+        "code": 2020,
+        "definition": "FUP versión diferente KuP a FuP",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualice el software, cambie la PCB del procesador ISP si es necesario"
+    }
+    ,
+    {
+        "code": 2021,
+        "definition": "FUP UPSTREAM TO HI",
+        "cause": "Sensor de presión aguas arriba defectuoso",
+        "suggestion": "Reemplace el sensor de presión aguas arriba"
+    }
+    ,
+    {
+        "code": 2022,
+        "definition": "FUP UPSTREAM TO LOW",
+        "cause": "Sensor de presión aguas arriba defectuoso",
+        "suggestion": "Reemplace el sensor de presión aguas arriba"
+    }
+    ,
+    {
+        "code": 2023,
+        "definition": "FUP DOWNSTREAM TO HI",
+        "cause": "Sensor de presión aguas abajo defectuoso",
+        "suggestion": "Reemplace el sensor de presión aguas abajo"
+    }
+    ,
+    {
+        "code": 2024,
+        "definition": "FUP DOWNSTREAM TO LOW",
+        "cause": "Sensor de presión aguas abajo defectuoso",
+        "suggestion": "Reemplace el sensor de presión aguas abajo"
+    }
+    ,
+    {
+        "code": 2025,
+        "definition": "FUP EA key cerrado por mucho tiempo",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Cambio de unidad operativa"
+    }
+    ,
+    {
+        "code": 2027,
+        "definition": "Error de CRC CALDATA del sensor de aire FUP",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2028,
+        "definition": "Error de CRC PROGDATA del sensor de aire FUP",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2029,
+        "definition": "Error en la calibración del sensor de aire FUP",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2030,
+        "definition": "No hay prueba de aire Kup",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2031,
+        "definition": "Diferencia en los sensores de temperatura Fup",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2032,
+        "definition": "Diferencia en los valores brutos de temperatura Fup",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2033,
+        "definition": "Error en la firma del sensor de aire Fup",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2034,
+        "definition": "Lista programada CAN paket fallida Fup",
+        "cause": "Error de comunicacion CAN",
+        "suggestion": "Reinicie el dispositivo"
+    }
+    ,
+    {
+        "code": 2035,
+        "definition": "Barrera luminosa o motor defectuosos",
+        "cause": "Barrera luminosa defectuosa",
+        "suggestion": "Cambio de PCB del procesador"
+    }
+    ,
+    {
+        "code": 2036,
+        "definition": "Error de memoria flash de idioma FUP",
+        "cause": "Archivo de idioma defectuoso",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2037,
+        "definition": "Error de versioh de lenguaje FUP",
+        "cause": "Archivo de idioma defectuoso",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2039,
+        "definition": "Alarma colectiva CAN Fup",
+        "cause": "Dos bombas con número serial idéntico en sistema",
+        "suggestion": "Verifique y corrija los números seriales"
+    }
+    ,
+    {
+        "code": 2100,
+        "definition": "Base de tiempo demasiado rápida",
+        "cause": "Cuarzo de la PCB del procesador",
+        "suggestion": "Cambio de la PCB del procesador"
+    }
+    ,
+    {
+        "code": 2101,
+        "definition": "Base de tiempo demasiado lenta",
+        "cause": "Cuarzo de la PCB del procesador",
+        "suggestion": "Cambio de la PCB del procesador"
+    }
+    ,
+    {
+        "code": 2102,
+        "definition": "Fallo en la base de tiempo",
+        "cause": "Cuarzo de la PCB del procesador",
+        "suggestion": "Cambio de la PCB del procesador"
+    }
+    ,
+    {
+        "code": 2103,
+        "definition": "Teclado alto",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 2104,
+        "definition": "Tecla ON-OFF presionada demasiado tiempo",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 2105,
+        "definition": "Sin decodificación de teclas",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 2106,
+        "definition": "Prueba ROM defectuosa",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2107,
+        "definition": "Programa ROM defectuoso",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2108,
+        "definition": "FuP no ha cambiado el valor activo de reinicio",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2109,
+        "definition": "Prueba MPU fallida",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2110,
+        "definition": "Prueba RAM fallida",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2111,
+        "definition": "Reinicio activo KUP",
+        "cause": "La bomba no se apagó correctamente",
+        "suggestion": "Reinicie el dispositivo"
+    }
+    ,
+    {
+        "code": 2115,
+        "definition": "Conducción demasiado rápida",
+        "cause": "Control del motor Reconocimiento de la dirección de rotación",
+        "suggestion": "Cambio de PCB del procesador"
+    }
+    ,
+    {
+        "code": 2116,
+        "definition": "Conducción demasiado lenta",
+        "cause": "Control del motor Reconocimiento de la dirección de rotación",
+        "suggestion": "Cambio de PCB del procesador"
+    }
+    ,
+    {
+        "code": 2119,
+        "definition": "Fondo LCD encendido defectuoso",
+        "cause": "Pantalla LCD defectuosa",
+        "suggestion": "Cambio de unidad operativa"
+    }
+    ,
+    {
+        "code": 2120,
+        "definition": "Fondo LCD apagado defectuoso",
+        "cause": "Pantalla LCD defectuosa",
+        "suggestion": "Cambio de unidad operativa"
+    }
+    ,
+    {
+        "code": 2121,
+        "definition": "LED rojo encendido defectuoso",
+        "cause": "Pantalla LCD defectuosa",
+        "suggestion": "Cambio de unidad operativa"
+    }
+    ,
+    {
+        "code": 2122,
+        "definition": "LED rojo apagado defectuoso",
+        "cause": "Pantalla LCD defectuosa",
+        "suggestion": "Cambio de unidad operativa"
+    }
+    ,
+    {
+        "code": 2123,
+        "definition": "Tecla presionada demasiado tiempo (sin tecla ON-OFF)",
+        "cause": "Teclado defectuoso",
+        "suggestion": "Realizar revisión del dispositivo"
+    }
+    ,
+    {
+        "code": 2128,
+        "definition": "Movimiento incorrecto hacia adelante del motor",
+        "cause": "Control del motor Reconocimiento de la dirección de rotación",
+        "suggestion": "Cambio de unidad operativa"
+    }
+    ,
+    {
+        "code": 2129,
+        "definition": "Movimiento incorrecto hacia atrás del motor",
+        "cause": "Control del motor Reconocimiento de la dirección de rotación",
+        "suggestion": "Cambio de unidad operativa"
+    }
+    ,
+    {
+        "code": 2201,
+        "definition": "Versión diferente FuP a KuP",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2202,
+        "definition": "Motor paso a paso PH1A no es 0",
+        "cause": "Motor paso a paso defectuoso",
+        "suggestion": "Reemplace el motor de accionamiento de la bomba o el procesador de PCB"
+    }
+    ,
+    {
+        "code": 2203,
+        "definition": "Motor paso a paso no está en el medio",
+        "cause": "Motor paso a paso defectuoso",
+        "suggestion": "Reemplace el motor de accionamiento de la bomba o el procesador de PCB"
+    }
+    ,
+    {
+        "code": 2204,
+        "definition": "Motor paso a paso K_SM_CLK",
+        "cause": "Motor paso a paso defectuoso",
+        "suggestion": "Reemplace el motor de accionamiento de la bomba o el procesador de PCB"
+    }
+    ,
+    {
+        "code": 2205,
+        "definition": "Motor paso a paso PH1A no es 1",
+        "cause": "Motor paso a paso defectuoso",
+        "suggestion": "Reemplace el motor de accionamiento de la bomba o el procesador de PCB"
+    }
+    ,
+    {
+        "code": 2206,
+        "definition": "Motor paso a paso no es corriente cero",
+        "cause": "Motor paso a paso defectuoso",
+        "suggestion": "Reemplace el motor de accionamiento de la bomba o el procesador de PCB"
+    }
+    ,
+    {
+        "code": 2207,
+        "definition": "Motor paso a paso no está en el medio",
+        "cause": "Motor paso a paso defectuoso",
+        "suggestion": "Reemplace el motor de accionamiento de la bomba o el procesador de PCB"
+    }
+    ,
+    {
+        "code": 2208,
+        "definition": "Motor paso a paso no es corriente alta",
+        "cause": "Motor paso a paso defectuoso",
+        "suggestion": "Reemplace el motor de accionamiento de la bomba o el procesador de PCB"
+    }
+    ,
+    {
+        "code": 2209,
+        "definition": "Motor paso a paso PH1A, PH1B, PH2A, PH2B no es 0",
+        "cause": "Motor paso a paso defectuoso",
+        "suggestion": "Reemplace el motor de accionamiento de la bomba o el procesador de PCB"
+    }
+    ,
+    {
+        "code": 2210,
+        "definition": "K_PKM_UB no está apagado",
+        "cause": "Unidad de accionamiento del perno de la puerta defectuosa",
+        "suggestion": "Reemplace la unidad de perno de la puerta o la PCB del procesador"
+    }
+    ,
+    {
+        "code": 2211,
+        "definition": "K_PKM_UB no está encendido",
+        "cause": "Unidad de accionamiento del perno de la puerta defectuosa",
+        "suggestion": "Reemplace la unidad de perno de la puerta o la PCB del procesador"
+    }
+    ,
+    {
+        "code": 2215,
+        "definition": "Sin V_MOT",
+        "cause": "PCB del procesador defectuoso",
+        "suggestion": "Cambio de PCB del procesador"
+    }
+    ,
+    {
+        "code": 2216,
+        "definition": "Fallo en la prueba de sobretensión",
+        "cause": "PCB del procesador defectuoso",
+        "suggestion": "Cambio de PCB del procesador"
+    }
+    ,
+    {
+        "code": 2217,
+        "definition": "Sin V_MOT",
+        "cause": "PCB del procesador defectuoso",
+        "suggestion": "Cambio de PCB del procesador"
+    }
+    ,
+    {
+        "code": 2218,
+        "definition": "Fallo en la prueba de subtensión",
+        "cause": "PCB del procesador defectuoso",
+        "suggestion": "Cambio de PCB del procesador"
+    }
+    ,
+    {
+        "code": 2220,
+        "definition": "Potenciómetro de la cerradura de la puerta defectuoso",
+        "cause": "Unidad de accionamiento del perno de la puerta (potenciómetro) defectuosa",
+        "suggestion": "Reemplace la unidad de perno de la puerta o la PCB del procesador"
+    }
+    ,
+    {
+        "code": 2221,
+        "definition": "Temporizador de cambio de tubo agotado",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualice el software, cambie la PCB del procesador ISP si es necesario"
+    }
+    ,
+    {
+        "code": 2222,
+        "definition": "Diferencia del sensor de temperatura",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2223,
+        "definition": "Sensor de aire defectuoso",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2224,
+        "definition": "Diferencia de compensación de tasa",
+        "cause": "Error de compensación de tasa",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2225,
+        "definition": "Valor máximo de compensación de tasa",
+        "cause": "Error de compensación de tasa",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2226,
+        "definition": "Valor mínimo de compensación de tasa",
+        "cause": "Error de compensación de tasa",
+        "suggestion": "Actualizacion de software"
+    }
+    ,
+    {
+        "code": 2227,
+        "definition": "Datos aéreos recibidos defectuosos",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2228,
+        "definition": "Interruptor del sensor de temperatura defectuoso",
+        "cause": "Sensor de aire defectuoso",
+        "suggestion": "Reemplace el sensor de aire"
+    }
+    ,
+    {
+        "code": 2229,
+        "definition": "Posición inicial incorrecta de la bomba",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualice el software, cambie la PCB del procesador ISP si es necesario"
+    }
+    ,
+    {
+        "code": 2230,
+        "definition": "Drive totphase está defectuoso",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualice el software, cambie la PCB del procesador ISP si es necesario"
+    }
+    ,
+    {
+        "code": 2231,
+        "definition": "Sensor de temperatura defectuoso",
+        "cause": "Software defectuoso u obsoleto",
+        "suggestion": "Actualice el software, cambie la PCB del procesador ISP si es necesario"
+    }
+    ]
